@@ -29,7 +29,6 @@ export const Todo = () => {
   return (
     <div>
       <h2>Todo List</h2>
-      <h3>Env{process.REACT_APP_URL}</h3>
       <div style={{ display: "flex", gap: "2rem" ,justifyContent:"center"}}>
       <button disabled={page === 1} onClick={() => setpage(page - 1)}>
         Next
